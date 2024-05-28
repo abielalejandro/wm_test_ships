@@ -11,11 +11,13 @@ Springboot 3.3.0
 docker compose up -d rabbitmq
 ```
 
+### Opcion 1. Correr el app desde el jar
 ```
-mvn clean package
+mvn clean package -DskipTests
 java -jar target/challenge-0.0.1-SNAPSHOT.jar
 ```
 
+### Opcion 1.  Correr el app desde spring
 ```
 mvn spring-boot:run
 ```
